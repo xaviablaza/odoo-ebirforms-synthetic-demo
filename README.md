@@ -114,8 +114,11 @@ The [synthetic tax-form artifacts](tax_forms/README.md) reconcile to the seeded
 ledger:
 
 - December 2025 Form 1601-C: ₱70,000 gross compensation and ₱4,583.45
-  compensation tax withheld. The input is rendered and dry-run packaged with
-  `xaviablaza/ebirforms-rebuilt-rs-oss` v0.1.7. Nothing is submitted.
+  compensation tax withheld. The input is rendered, dry-run packaged, and
+  overlaid on the official blank BIR form with the upstream Rust CLI PDF-export
+  feature. The generated sample is
+  [`output/pdf/the-sun-people-form-1601c-2025-12.pdf`](output/pdf/the-sun-people-form-1601c-2025-12.pdf).
+  Nothing is submitted.
 - Q4 2025 Form 2307: three ₱6,000 contractor bills, ₱18,000 total income
   payments, and ₱900 WI010 tax withheld. Generate it in Odoo by selecting the
   October–December bills and choosing **Actions → Download BIR 2307 XLS**.
@@ -161,6 +164,7 @@ scripts/validate_dataset.py  independent accounting reconciliation
 scripts/refresh_catalog.py   optional public-catalog refresh
 tests/                       fixture policy and balancing tests
 tax_forms/                   reconciled dry-run 1601-C inputs and artifacts
+output/pdf/                  CLI-generated sample Form 1601-C PDF
 docs/                        Odoo demonstration prompt
 compose.yaml                 Odoo 19 + PostgreSQL 15
 ```

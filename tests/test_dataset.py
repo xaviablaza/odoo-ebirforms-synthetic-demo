@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import importlib.util
 import json
 import unittest
@@ -209,6 +210,22 @@ class DatasetTest(unittest.TestCase):
         self.assertEqual(
             form["profile"]["tin"], self.assumptions["company"]["vat"]
         )
+        self.assertLessEqual(len(fields["txtNumber37"]), 17)
+
+    def test_cli_generated_1601c_pdf_is_tracked_and_checksummed(self):
+        pdf_dir = ROOT / "output" / "pdf"
+        pdf = pdf_dir / "the-sun-people-form-1601c-2025-12.pdf"
+        data = pdf.read_bytes()
+        self.assertTrue(data.startswith(b"%PDF-"))
+        self.assertIn(b"%%EOF", data[-1024:])
+        self.assertGreater(len(data), 900_000)
+
+        checksum_line = (pdf_dir / "SHA256SUMS").read_text(
+            encoding="utf-8"
+        ).strip()
+        expected_hash, filename = checksum_line.split()
+        self.assertEqual(filename, pdf.name)
+        self.assertEqual(hashlib.sha256(data).hexdigest(), expected_hash)
 
 
 if __name__ == "__main__":

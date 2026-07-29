@@ -18,13 +18,25 @@ The rates use the BIR monthly withholding table effective January 1, 2023
 onward. The demo intentionally assumes no employee statutory-contribution
 deductions, so it is not a payroll calculator or filing recommendation.
 
-The XML and package are generated with
+The XML, dry-run package, and sample PDF are generated with
 [`xaviablaza/ebirforms-rebuilt-rs-oss`](https://github.com/xaviablaza/ebirforms-rebuilt-rs-oss)
-at the commit recorded in `CLI_PROVENANCE.txt`:
+at the merged PDF-export commit recorded in `CLI_PROVENANCE.txt`. The CLI
+overlays the XML values on the official BIR January 2018 blank form supplied at
+runtime; the blank template is not committed to this repository.
 
 ```bash
-EBIRFORMS_CLI=/path/to/ebirforms-cli ./scripts/render_1601c.sh
+EBIRFORMS_CLI=/path/to/ebirforms-cli \
+EBIRFORMS_1601C_PDF_TEMPLATE=/path/to/official-1601C.pdf \
+./scripts/render_1601c.sh
 ```
+
+The expected blank template is the
+[official BIR Form 1601-C PDF](https://bir-cdn.bir.gov.ph/local/pdf/1601C%20final%20Jan%202018%20with%20DPA.pdf)
+with SHA-256
+`c8faaa71015337a73b4ceb96bfb265c539589ab5e10eb27899bb81f87f417397`.
+The generated two-page sample is
+`output/pdf/the-sun-people-form-1601c-2025-12.pdf`; visually review it before
+any real-world use. No submission command is part of the script.
 
 ## Q4 2025 Form 2307
 
