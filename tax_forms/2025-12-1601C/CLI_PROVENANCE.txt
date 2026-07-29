@@ -1,0 +1,8 @@
+Repository: https://github.com/xaviablaza/ebirforms-rebuilt-rs-oss
+Commit: a396a4033b8f632d2609a7001761cb516f71c39c
+Commit subject: Release v0.1.7
+Commit date: 2026-07-17T09:44:02Z
+Rust compiler: rustc 1.90.0 (1159e78c4 2025-09-14)
+CLI binary SHA-256: b32f9226acd81d2c10de3f6b460e193489403bdf677afb3384d0c850ba3a62e6
+Upstream verification: cargo test -p ebirforms-core -p ebirforms-cli (26 passed)
+Generation mode: render + package only; no submission command was run

@@ -1,0 +1,193 @@
+{
+  "demo_year": 2025,
+  "company": {
+    "name": "The Sun People (Synthetic Demo)",
+    "street": "123 Demo Solar Street",
+    "street2": "Barangay Sample",
+    "city": "Makati City",
+    "state_name": "Metro Manila",
+    "zip": "1200",
+    "country_code": "PH",
+    "currency": "PHP",
+    "vat": "000-000-000-00000",
+    "rdo": "000",
+    "email": "accounting@sunpeople.demo.invalid",
+    "phone": "+63 2 8000 0000"
+  },
+  "capitalization": {
+    "par_value": 1.0,
+    "contributors": [
+      {"name": "Demo Founder A", "shares": 333333, "amount": 333333.0},
+      {"name": "Demo Founder B", "shares": 333333, "amount": 333333.0},
+      {"name": "Demo Founder C", "shares": 333333, "amount": 333333.0},
+      {"name": "Demo Corporate Secretary", "shares": 1, "amount": 1.0}
+    ]
+  },
+  "people": {
+    "employees": [
+      {
+        "name": "Mara Santos (Synthetic)",
+        "job_title": "In-house Marketing Manager",
+        "monthly_gross": 40000.0,
+        "monthly_compensation_withholding": 3208.4
+      },
+      {
+        "name": "Luis Reyes (Synthetic)",
+        "job_title": "In-house Logistics Coordinator",
+        "monthly_gross": 30000.0,
+        "monthly_compensation_withholding": 1375.05
+      }
+    ],
+    "contractors": [
+      {
+        "name": "Alex Ledger (Synthetic)",
+        "first_name": "Alex",
+        "middle_name": "",
+        "last_name": "Ledger",
+        "service": "Monthly accounting support",
+        "monthly_gross": 6000.0,
+        "tin": "111-222-333-00000",
+        "street": "456 Synthetic Ledger Lane",
+        "city": "Makati City",
+        "zip": "1200",
+        "atc": "WI010",
+        "expanded_withholding_rate": 0.05,
+        "qualification": "Synthetic individual professional, non-VAT, annual gross income not over PHP 3 million, assumed to have supplied the required sworn declaration and Certificate of Registration."
+      }
+    ]
+  },
+  "monthly_expenses": [
+    {
+      "vendor": "Shopify (Demo Vendor)",
+      "label": "Shopify subscription",
+      "amount": 1200.0,
+      "account_code": "620000"
+    },
+    {
+      "vendor": "Google Workspace (Demo Vendor)",
+      "label": "Gmail / Google Workspace subscription",
+      "amount": 1100.0,
+      "account_code": "620000"
+    },
+    {
+      "vendor": "Demo Advertising Platform",
+      "label": "Digital advertising spend",
+      "amount": 10000.0,
+      "account_code": "628000"
+    },
+    {
+      "vendor": "Demo Storage Landlord",
+      "label": "Office and goods storage rent",
+      "amount": 20000.0,
+      "account_code": "620100"
+    },
+    {
+      "vendor": "Demo Electric Utility",
+      "label": "Electricity utility bill",
+      "amount": 4000.0,
+      "account_code": "625000"
+    }
+  ],
+  "one_time_expenses": [
+    {
+      "date": "2025-01-02",
+      "vendor": "Korp.ph",
+      "label": "Local company incorporation package",
+      "amount": 45000.0,
+      "account_code": "626001",
+      "source_url": "https://www.korp.ph/solutions",
+      "source_retrieved_at": "2026-07-30",
+      "source_note": "Korp.ph advertised Incorporation for Filipinos starting at PHP 45,000."
+    },
+    {
+      "date": "2025-01-05",
+      "vendor": "Demo Office Supplies",
+      "label": "Printer ink",
+      "amount": 2400.0,
+      "account_code": "633000"
+    },
+    {
+      "date": "2025-01-05",
+      "vendor": "Demo Office Supplies",
+      "label": "Five pens at PHP 25 each",
+      "amount": 125.0,
+      "quantity": 5,
+      "unit_price": 25.0,
+      "account_code": "633000"
+    }
+  ],
+  "fixed_assets": [
+    {
+      "asset_id": "FA-2025-001",
+      "name": "MacBook M2 - Marketing",
+      "date": "2025-01-03",
+      "vendor": "Demo Apple Reseller",
+      "cost": 72000.0,
+      "asset_account_code": "110503",
+      "accumulated_depreciation_account_code": "110507",
+      "depreciation_expense_account_code": "629000",
+      "useful_life_months": 60,
+      "residual_value": 0.0
+    },
+    {
+      "asset_id": "FA-2025-002",
+      "name": "MacBook M2 - Logistics",
+      "date": "2025-01-03",
+      "vendor": "Demo Apple Reseller",
+      "cost": 72000.0,
+      "asset_account_code": "110503",
+      "accumulated_depreciation_account_code": "110507",
+      "depreciation_expense_account_code": "629000",
+      "useful_life_months": 60,
+      "residual_value": 0.0
+    },
+    {
+      "asset_id": "FA-2025-003",
+      "name": "Office printer",
+      "date": "2025-01-03",
+      "vendor": "Demo Office Supplies",
+      "cost": 18000.0,
+      "asset_account_code": "110501",
+      "accumulated_depreciation_account_code": "110505",
+      "depreciation_expense_account_code": "629000",
+      "useful_life_months": 60,
+      "residual_value": 0.0
+    }
+  ],
+  "sales": {
+    "orders_per_month": 18,
+    "random_seed": 20250730,
+    "free_shipping_threshold": 1500.0,
+    "customer_shipping_charge_below_threshold": 150.0,
+    "lalamove_zone_rates": {
+      "Makati": 120.0,
+      "Taguig": 120.0,
+      "Pasig": 150.0,
+      "Manila": 150.0,
+      "Quezon City": 180.0,
+      "Muntinlupa": 180.0
+    }
+  },
+  "accounting_policy": {
+    "tax_treatment": "No VAT is applied. Compensation withholding and expanded withholding on the accounting contractor are booked and remitted monthly using explicit synthetic assumptions.",
+    "payroll_treatment": "Gross pay is expensed. Employee compensation withholding uses the BIR monthly table effective January 1, 2023 onward, without statutory contribution deductions or employer contributions.",
+    "cogs_treatment": "Direct monthly cash-basis COGS, derived from sold units; no opening or closing inventory.",
+    "depreciation_treatment": "Straight-line, zero residual value, full month from January 2025.",
+    "disclaimer": "Educational synthetic data only; not tax, legal, payroll, or accounting advice."
+  },
+  "withholding": {
+    "compensation": {
+      "form": "1601-C",
+      "atc": "WW010",
+      "table_source_url": "https://bir-cdn.bir.gov.ph/local/pdf/Annex%20E%20RR%2011-2018.pdf",
+      "table_effective": "2023-01-01",
+      "filing_period_prepared": "2025-12"
+    },
+    "expanded": {
+      "certificate": "2307",
+      "rate_source_url": "https://bir-cdn.bir.gov.ph/local/pdf/Digest%20RR%2014-2018.pdf",
+      "official_form_url": "https://bir-cdn.bir.gov.ph/local/pdf/2307%20Jan%202018%20ENCS%20v3.pdf",
+      "filing_period_prepared": "2025-Q4"
+    }
+  }
+}

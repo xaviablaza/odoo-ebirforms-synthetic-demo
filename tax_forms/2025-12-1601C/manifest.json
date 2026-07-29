@@ -1,0 +1,13 @@
+{
+  "form_code": "1601C",
+  "form_version": "v2018",
+  "remote_directory": "/1601Cv2018/",
+  "remote_path": "/1601Cv2018/00000000000000-1601Cv2018-122025#accounting@sunpeople.demo.invalid#.xml",
+  "filename": "00000000000000-1601Cv2018-122025#accounting@sunpeople.demo.invalid#.xml",
+  "plaintext_sha256": "9bb3295d82d46975dbf1d9176d9d4da6f135877651b0512b5cf76f811bf00677",
+  "payload_sha256": "33db47da1d5cec7672521d0b6a8c03d5cf02597417cd9d861ba27010c58a3907",
+  "payload_size": 924,
+  "period_mmYYYY": "122025",
+  "profile_id": "sun-people-synthetic-demo",
+  "generated_unix_seconds": 1785355485
+}

@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.thesunpeople.com/collections/shop",
+  "retrieved_at": "2026-07-30",
+  "currency": "PHP",
+  "shipping_banner": "Free shipping for orders P1,500 and up!",
+  "products": [
+    {
+      "sku": "SUN-SEEKER-100",
+      "name": "Sun Seeker SPF 50+ PA++++ Face and Body Sunscreen Lotion 100mL",
+      "sale_price": 545.0,
+      "source_status": "current",
+      "unit_cogs": {
+        "formulation_and_filling": 118.0,
+        "primary_packaging": 42.0,
+        "labels_and_cartons": 18.0,
+        "inbound_freight": 12.0
+      }
+    },
+    {
+      "sku": "SUN-SAND-100",
+      "name": "Sun+Sand Shield SPF 50+ PA++++ Face and Body Sunscreen & Insect Repellent Mist 100mL",
+      "sale_price": 595.0,
+      "source_status": "current",
+      "unit_cogs": {
+        "formulation_and_filling": 138.0,
+        "primary_packaging": 55.0,
+        "labels_and_cartons": 20.0,
+        "inbound_freight": 12.0
+      }
+    },
+    {
+      "sku": "SUN-BUNDLE-100",
+      "name": "(Bundle) The Sun People Sun Seeker and Sun+Sand Shield SPF 50+ PA++++",
+      "sale_price": 999.0,
+      "compare_at_price": 1140.0,
+      "source_status": "current_sale",
+      "unit_cogs": {
+        "formulation_and_filling": 256.0,
+        "primary_packaging": 97.0,
+        "labels_and_cartons": 53.0,
+        "inbound_freight": 24.0
+      }
+    }
+  ],
+  "notes": [
+    "Names and retail prices are source facts captured from the public shop.",
+    "All unit COGS values are synthetic management assumptions, not facts about The Sun People.",
+    "The bundle COGS includes both products plus a PHP 15 bundle sleeve within labels_and_cartons."
+  ]
+}
