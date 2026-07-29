@@ -51,10 +51,10 @@
             <div>txtTaxAgentNo=txtTaxAgentNo=</div>	
             <div>txtDateIssue=txtDateIssue=</div>	
             <div>txtDateExpiry=txtDateExpiry=</div>	
-            <div>frm1601c:txtAgency37=DEMO BANKfrm1601c:txtAgency37=</div>	
-            <div>frm1601c:txtNumber37=TSP-1601C-122025frm1601c:txtNumber37=</div>	
-            <div>frm1601c:txtDate37=12/31/2025frm1601c:txtDate37=</div>	
-            <div>frm1601c:txtAmount37=4583.45frm1601c:txtAmount37=</div>	
+            <div>frm1601c:txtAgency37=frm1601c:txtAgency37=</div>	
+            <div>frm1601c:txtNumber37=frm1601c:txtNumber37=</div>	
+            <div>frm1601c:txtDate37=frm1601c:txtDate37=</div>	
+            <div>frm1601c:txtAmount37=frm1601c:txtAmount37=</div>	
             <div>frm1601c:txtAgency38=frm1601c:txtAgency38=</div>	
             <div>frm1601c:txtNumber38=frm1601c:txtNumber38=</div>	
             <div>frm1601c:txtDate38=frm1601c:txtDate38=</div>	
@@ -71,7 +71,7 @@
             <div>frm1601c:txtPg2TIN2=000frm1601c:txtPg2TIN2=</div>	
             <div>frm1601c:txtPg2TIN3=000frm1601c:txtPg2TIN3=</div>	
             <div>frm1601c:txtPg2BranchCode=00000frm1601c:txtPg2BranchCode=</div>	
-            <div>frm1601c:txtPg2TaxpayerName=THE SUN PEOPLE (SYNTHETIC DEMO)frm1601c:txtPg2TaxpayerName=</div>	
+            <div>frm1601c:txtPg2TaxpayerName=THE SUN PEOPLEfrm1601c:txtPg2TaxpayerName=</div>	
             <div>frm1601c:sched1:txtTotal1=0.00frm1601c:sched1:txtTotal1=</div>	
             <div>frm1601c:txtCurrentPage=1frm1601c:txtCurrentPage=</div>	
             <div>frm1601c:txtMaxPage=2frm1601c:txtMaxPage=</div>	

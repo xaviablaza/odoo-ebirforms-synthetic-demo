@@ -13,6 +13,7 @@ ledger entries:
 - Marketing manager withholding: ₱3,208.40
 - Logistics coordinator withholding: ₱1,375.05
 - Total compensation tax withheld/remitted: ₱4,583.45
+- Part III Box 37 payment details: intentionally blank in the sample PDF
 
 The rates use the BIR monthly withholding table effective January 1, 2023
 onward. The demo intentionally assumes no employee statutory-contribution

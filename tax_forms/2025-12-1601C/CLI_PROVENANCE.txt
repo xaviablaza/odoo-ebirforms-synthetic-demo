@@ -1,12 +1,12 @@
 Repository: https://github.com/xaviablaza/ebirforms-rebuilt-rs-oss
 Branch: main
-Commit: 7d6bb55acdae3c1baee5429892514c2b00722a92
-Commit subject: Merge pull request #7 from xaviablaza/codex/fix-1601c-pdf-layout
-Commit date: 2026-07-30T03:30:40+07:00
-CLI version: 0.1.8
+Commit: 19a38faa30348cb3073d311d9a0dec3a88c1d52c
+Commit subject: Release v0.1.10
+Commit date: 2026-07-29T21:10:22Z
+CLI version: 0.1.10
 Rust compiler: rustc 1.90.0 (1159e78c4 2025-09-14)
-CLI binary SHA-256: 3287eeba87446bf0c0d45f5770827f41db239588129c62df905b26c296b964c7
+CLI binary SHA-256: 02cb4bc0ca99908df534a2533d43cdae94ed6063b7b7f45779503b021a483dd1
 Official PDF source: https://bir-cdn.bir.gov.ph/local/pdf/1601C%20final%20Jan%202018%20with%20DPA.pdf
 Official PDF SHA-256: c8faaa71015337a73b4ceb96bfb265c539589ab5e10eb27899bb81f87f417397
-Upstream verification: cargo test -p ebirforms-core -p ebirforms-cli (44 passed) plus official-template integration (1 passed)
+Upstream verification: cargo test -p ebirforms-core -p ebirforms-cli (45 passed) plus official-template integration (1 passed)
 Generation mode: render + package + render-pdf only; no submission command was run

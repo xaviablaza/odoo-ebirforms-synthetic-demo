@@ -210,7 +210,11 @@ class DatasetTest(unittest.TestCase):
         self.assertEqual(
             form["profile"]["tin"], self.assumptions["company"]["vat"]
         )
-        self.assertLessEqual(len(fields["txtNumber37"]), 17)
+        self.assertEqual(fields["txtAddress2"], fields["txtAddress"])
+        self.assertGreater(len(fields["txtAddress"]), 40)
+        self.assertLessEqual(len(fields["txtPg2TaxpayerName"]), 26)
+        for key in ("txtAgency37", "txtNumber37", "txtDate37", "txtAmount37"):
+            self.assertEqual(fields[key], "")
 
     def test_cli_generated_1601c_pdf_is_tracked_and_checksummed(self):
         pdf_dir = ROOT / "output" / "pdf"

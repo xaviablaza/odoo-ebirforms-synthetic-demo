@@ -90,7 +90,7 @@ Open `http://localhost:8069` and sign in with `admin` / `admin`.
      `tax_forms/2025-12-1601C/SHA256SUMS`.
    - Open `output/pdf/the-sun-people-form-1601c-2025-12.pdf` and show both
      pages. Point out the synthetic company details, ₱70,000 gross
-     compensation, ₱4,583.45 withholding, and matching payment detail.
+     compensation, and ₱4,583.45 withholding.
    - Explain that the Rust CLI rendered and packaged the dry-run XML and
      overlaid it on the official blank January 2018 BIR Form 1601-C.
    - Do not run any `submit`, `queue`, or live network command.
